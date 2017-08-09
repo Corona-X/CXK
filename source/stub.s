@@ -11,3 +11,12 @@ __fake_kernel:
 
     // lol
     ret
+
+.globl _XKAllocate
+.globl _XKFree
+
+_XKAllocate:
+    ret
+
+_XKFree:
+    ret
